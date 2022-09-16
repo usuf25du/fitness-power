@@ -75,7 +75,7 @@ h1{
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
-    align-items: ;
+    
 }
 .card1{
     width: 350px;
@@ -90,7 +90,7 @@ h1{
 .card1:hover{
     border: 2px solid orangered;
     margin-top: -20px;
-    transition: .5ms;
+    transition: .10ms;
 }
 .title2{
     text-align: center;
@@ -105,3 +105,109 @@ h1{
     text-align: center;
     padding: 10px;
 }
+.about-container{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+}
+.about-left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.workout-image{
+    display: flex;
+    
+}
+.workout-image img{
+    width: 250px;
+    height: 300px;
+    transform: skew(-10deg);
+   
+    
+}
+.about-right{
+    padding: 20px;
+    text-align: center;
+
+}
+.about-right ul li{
+    list-style: none;
+}
+.btn-none{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.workout-container{
+    width: 550px;
+    height: 200px;
+    background-position: center;
+    background-image: url(./images/shape/Group_33094_1.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+.title-3{
+    padding-right: 30px;
+    margin-right: 10px;
+}
+.service1{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 0px solid grey;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px grey;
+    
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service-image1{
+    height: 200px;
+    width: 200px;
+}
+.trainer-title{
+    color: blue;
+}
+.join{
+    color: brown;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 100px;
+   justify-content: center;
+   margin-bottom: 20px;
+    
+}
+.footer1{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: black;
+    padding-top: 100px;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+
