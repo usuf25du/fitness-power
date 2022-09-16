@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* .container{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    clip-path: polygon(0 25%, 100% 0%, 100% 77%, 0% 100%);
+    position: absolute;
+} */
+.menu-container{
+    display: flex;
+    justify-content: space-around; 
+    background-color: darkgray;  
+    color: white;
+    padding: 5px;
+}
+.logo{
+    
+}
+h1{
+    
+}
+.menu-items{
+    display: flex; 
+    align-items: flex-end;
+     
+}
+.menu-items li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+}
+.menu-items li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.banner-description{
+    margin-left: 50px;
+}
+.banner-text{
+    color: coral;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title-one{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+.text{
+    font-size: 25px;
+    margin: 10px;
+}
+.banner-btn{
+    padding: 15px 30px;
+    background-color: red;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    border: 5px;
